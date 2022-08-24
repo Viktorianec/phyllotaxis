@@ -11,6 +11,7 @@
 		F0F6787628B54E3D00826107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6787528B54E3D00826107 /* ContentView.swift */; };
 		F0F6787828B54E3E00826107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F6787728B54E3E00826107 /* Assets.xcassets */; };
 		F0F6787B28B54E3E00826107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F6787A28B54E3E00826107 /* Preview Assets.xcassets */; };
+		F0F6788628B5596D00826107 /* Phyllotaxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6788528B5596D00826107 /* Phyllotaxis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F0F6787528B54E3D00826107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0F6787728B54E3E00826107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F6787A28B54E3E00826107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0F6788528B5596D00826107 /* Phyllotaxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phyllotaxis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F0F6787228B54E3D00826107 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				F0F6788428B5595800826107 /* Phyllotaxis */,
 				F0F6787328B54E3D00826107 /* AnimationApp.swift */,
 				F0F6787528B54E3D00826107 /* ContentView.swift */,
 				F0F6787728B54E3E00826107 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F0F6787A28B54E3E00826107 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0F6788428B5595800826107 /* Phyllotaxis */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6788528B5596D00826107 /* Phyllotaxis.swift */,
+			);
+			path = Phyllotaxis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F6787628B54E3D00826107 /* ContentView.swift in Sources */,
+				F0F6788628B5596D00826107 /* Phyllotaxis.swift in Sources */,
 				F0F6787428B54E3D00826107 /* AnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
